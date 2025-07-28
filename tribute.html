@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tribute to Dr. A.P.J. Abdul Kalam</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4fbff;
+      color: #333;
+    }
+
+    nav {
+      background: #d6eaf8;
+      padding: 15px 30px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #2c3e50;
+      font-weight: bold;
+      font-size: 1em;
+    }
+
+    nav a:hover {
+      color: #117864;
+    }
+
+    header {
+      background: #e8f8f5;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3em;
+      color: #1a5276;
+    }
+
+    header p {
+      font-size: 1.3em;
+      color: #5d6d7e;
+      margin-top: 10px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 30px 20px;
+    }
+
+    .image-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .image-container img {
+      width: 250px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    }
+
+    .section {
+      margin-top: 50px;
+    }
+
+    .section h2 {
+      color: #2e4053;
+      margin-bottom: 15px;
+      border-left: 5px solid #5dade2;
+      padding-left: 10px;
+    }
+
+    .bio, .timeline, .quotes {
+      font-size: 1.1em;
+      line-height: 1.8;
+    }
+
+    .timeline ul {
+      padding-left: 20px;
+    }
+
+    .timeline li {
+      margin-bottom: 10px;
+    }
+
+    .quote-box {
+      background: #f9fbe7;
+      padding: 20px;
+      border-left: 6px solid #b2ebf2;
+      margin: 20px 0;
+      font-style: italic;
+      color: #33691e;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #d6eaf8;
+      color: #555;
+      font-size: 0.9em;
+      margin-top: 50px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+
+      .image-container img {
+        width: 180px;
+      }
+
+      nav {
+        font-size: 0.9em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#bio">Biography</a>
+    <a href="#timeline">Timeline</a>
+    <a href="#quotes">Quotes</a>
+  </nav>
+
+  <header>
+    <h1>Dr. A.P.J. Abdul Kalam</h1>
+    <p>Missile Man of India | President | Scientist | Teacher | Dreamer</p>
+  </header>
+
+  <div class="container">
+
+    <div class="image-container">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/A.P.J_Abdul_Kalam.jpg" alt="Dr. A.P.J. Abdul Kalam">
+    </div>
+
+    <div class="section" id="bio">
+      <h2>Biography</h2>
+      <div class="bio">
+        <p><strong>Dr. Avul Pakir Jainulabdeen Abdul Kalam</strong> (15 October 1931 – 27 July 2015) was a visionary Indian scientist and the 11th President of India (2002–2007). Born in Rameswaram, Tamil Nadu, he rose from humble beginnings to become one of India's most respected leaders.</p>
+        <p>Kalam played a critical role in India's civilian space program and military missile development efforts, earning him the nickname "<strong>Missile Man of India</strong>." He was closely associated with India's Pokhran-II nuclear tests in 1998.</p>
+        <p>Even after serving as President, he remained dedicated to education and youth empowerment, often visiting schools and universities to inspire young minds. His simplicity, humility, and unwavering patriotism continue to serve as a beacon of hope and inspiration.</p>
+      </div>
+    </div>
+
+    <div class="section" id="timeline">
+      <h2>Timeline of Achievements</h2>
+      <div class="timeline">
+        <ul>
+          <li><strong>1931:</strong> Born in Rameswaram, Tamil Nadu.</li>
+          <li><strong>1969:</strong> Joined ISRO; was Project Director of India’s first Satellite Launch Vehicle (SLV-III).</li>
+          <li><strong>1981:</strong> Awarded Padma Bhushan.</li>
+          <li><strong>1990:</strong> Awarded Padma Vibhushan.</li>
+          <li><strong>1998:</strong> Led Pokhran-II nuclear tests.</li>
+          <li><strong>2002–2007:</strong> Served as the 11th President of India.</li>
+          <li><strong>2015:</strong> Passed away while delivering a lecture at IIM Shillong.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section" id="quotes">
+      <h2>Famous Quotes</h2>
+      <div class="quotes">
+        <div class="quote-box">"Dream is not that which you see while sleeping; it is something that does not let you sleep."</div>
+        <div class="quote-box">"If you want to shine like a sun, first burn like a sun."</div>
+        <div class="quote-box">"You have to dream before your dreams can come true."</div>
+        <div class="quote-box">"Let us sacrifice our today so that our children can have a better tomorrow."</div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    🇮🇳 Tribute to a true Bharat Ratna | Made with ❤️ by an admirer | © 2025
+  </footer>
+
+</body>
+</html>
