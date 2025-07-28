@@ -3,7 +3,7 @@
 
 A beautifully crafted and responsive **tribute webpage** dedicated to **Dr. A.P.J. Abdul Kalam** — the Missile Man of India, a legendary scientist, visionary, former President of India, and a true inspiration to generations 🇮🇳.
 
-![Dr. A.P.J. Abdul Kalam](https://upload.wikimedia.org/wikipedia/commons/b/b0/A.P.J_Abdul_Kalam.jpg)
+
 
 ---
 
